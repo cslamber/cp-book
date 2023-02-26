@@ -1,0 +1,80 @@
+- balanced binary trees
+	- [ ] standard
+	- [ ] persistent
+	- [ ] iterators
+	- [ ] splay
+- data structures
+	- [x] lazy segtree
+	- [ ] li-chao tree
+	- [ ] line container
+	- [x] segtree
+	- [x] union find cocycles
+	- [ ] union find aggregate
+	- [ ] (persistent?) meld heap
+- geometry
+	- [ ] closest pair
+	- [ ] convex hull
+	- [ ] curve union
+	- [ ] denaunay triangluation
+	- [ ] halfplane intersection
+	- [ ] minkowski sum
+	- [x] 2d point class
+	- [ ] polygon area
+	- [ ] polygon intersection
+	- [ ] sweepline/angle events
+- graph
+	- [ ] biconnected components
+	- [ ] general matching
+	- [x] bridges
+	- [ ] directed mst
+	- [ ] dynamic connectivity
+	- [ ] max-flow
+	- [ ] max-flow tree
+	- [ ] min-cost max-flow
+	- [ ] negative cycle
+	- [ ] min-cost matching
+	- [x] strongly connected components
+	- [x] 2sat
+- matrix
+	- [x] small matrix
+	- [ ] large matrix
+	- [ ] matrix inversion
+	- [ ] simplex algorithm
+- numerical
+	- [x] bits helpers
+	- [ ] modular counting helpers
+	- [ ] euclidean algorithm
+	- [x] floorsum
+	- [ ] primes utilies
+	- [ ] count lattice in polygon
+- polynomials
+	- [ ] polynomial class
+	- [ ] naive polynomial class
+	- [ ] fft
+	- [ ] inversion
+	- [ ] stirling numbers
+	- [ ] partition numbers
+- string
+	- [ ] aho-corasick
+	- [ ] repetitions
+	- [ ] kmp function
+	- [ ] lyndon factorization
+	- [ ] manacher
+	- [ ] string hashing
+	- [ ] suffix array
+	- [ ] suffix tree
+	- [ ] suffix automaton
+	- [ ] z function
+- tree
+	- [x] centroid decomposition
+	- [ ] hld
+	- [ ] lca
+	- [ ] link-cut-tree
+	- [ ] virutal tree helpers
+- util
+	- [ ] cartesian tree
+	- [x] region maintenence
+- various
+	- [ ] matroid intersection
+	- [x] mo queries
+	- [ ] schreier sims
