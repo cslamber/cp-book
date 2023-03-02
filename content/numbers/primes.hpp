@@ -6,20 +6,18 @@ static struct {
 	/// p = list of primes
 	/// q = largest prime factor
 	/// m = mobius function
-	vi p, q, m;
+	vi p, q(1), m(1);
 	void calc(int n) {
-		if (q.size() > n) return;
-		q.resize(++n *= 2); m.resize(n, 1);
-		q.clear(); p.clear();
+		if (n++ < q.size()) return;
+		m = q = vi(n*=2);
 		rep(i,2,n) {
 			if (!q[i]) q[i] = i, m[i] = -1, p.push_back(i);
 			for (int j = 0; j < p.size() && p[j] <= q[i] && i*p[j] < n; j++)
-				q[i*p[j]] = p[j], m[i*p[j]] *= p[j] < q[i] ? -m[i] : 0;
+				q[i*p[j]] = p[j], m[i*p[j]] = p[j] < q[i] ? -m[i] : 0;
 		}
 	}
-	// next functions are O(largest argument passed to them)
 	bool is(int n) { calc(n); return q[n] == n; }
-	int nth(int n) { while (p.size() < n) calc(q.size()+1); return p[n]; }
+	int nth(int n) { while (p.size() < n) calc(q.size()); return p[n]; }
 	int mobius(int n) { calc(n); return m[n]; }
 	// O(sqrt n)
 	auto factor(int n) {

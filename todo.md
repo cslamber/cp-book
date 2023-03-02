@@ -57,14 +57,14 @@
 - string
 	- [ ] aho-corasick
 	- [ ] repetitions
-	- [ ] kmp function
+	- [x] prefix function
 	- [ ] lyndon factorization
 	- [ ] manacher
 	- [ ] string hashing
 	- [ ] suffix array
 	- [ ] suffix tree
 	- [ ] suffix automaton
-	- [ ] z function
+	- [x] z function
 - tree
 	- [x] centroid decomposition
 	- [ ] hld
