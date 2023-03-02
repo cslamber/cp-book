@@ -1,6 +1,6 @@
 //$ set name modnum
 ///
-/// this allows us to only conditionally require counting_helpers
+/// dont have to require counting_helpers if you dont need it
 template<class T> struct counting_helpers;
 
 template<const uint32_t& MOD> struct modnum {

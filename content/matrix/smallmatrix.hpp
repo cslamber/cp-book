@@ -13,5 +13,5 @@ template<int N, int M, class T> struct smat : array<array<T, M>, N> {
 		rep(i,0,N) rep(j,0,M) rep(k,0,K) r[i][k] = (*this)[i][j] * o[j][k];
 		return r;
 	}
-	auto T() const { smat<M, N, T> r; rep(i,0,N) rep(j,0,N) r[j][i] = (*this)[i][j]; }
+	auto T() const { smat<M, N, T> r; rep(i,0,N) rep(j,0,M) r[j][i] = (*this)[i][j]; return r; }
 };

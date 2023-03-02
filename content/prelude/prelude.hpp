@@ -1,5 +1,6 @@
 //$ set name prelude
-
+///
+/// might want to exclude ext in future since it screws up clang?
 #include <bits/stdc++.h>
 #include <bits/extc++.h>
 using namespace std;

@@ -1,11 +1,7 @@
 //$ set name common
 ///
-/// stuff that isn't necessary for our header / other code to work, but
-/// i use enough to warrant inclusion in the 'prelude' directory
-///
 /// from http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0200r0.html
-/// i particularly use this a lot, but can mostly be replaced when not
-/// writing an actual solution
+/// can be replaced just by calling a lambda with itself as argument
 template<class F> struct y_combinator_result {
 	F f; tcT explicit y_combinator_result(T&&f) : f(forward<T>(f)) {}
 	template<class...Ts> decltype(auto) operator()(Ts&&...ts) {
