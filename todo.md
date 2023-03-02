@@ -61,7 +61,7 @@
 	- [ ] lyndon factorization
 	- [ ] manacher
 	- [ ] string hashing
-	- [ ] suffix array
+	- [x] suffix array
 	- [ ] suffix tree
 	- [ ] suffix automaton
 	- [x] z function
