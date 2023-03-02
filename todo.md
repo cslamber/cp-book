@@ -37,7 +37,7 @@
 	- [x] 2sat
 - matrix
 	- [x] small matrix
-	- [ ] large matrix
+	- [x] large matrix
 	- [ ] matrix inversion
 	- [ ] simplex algorithm
 - numerical
